@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/photo_image_view1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/todo"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fifa" />
+
+    <TextView
+        android:id="@+id/title_text_view1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/join_us"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@android:color/white"
+        android:textSize="45sp"
+        android:paddingTop="32dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:id="@+id/title_text_view2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/became_professional_soccer_player"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:paddingTop="16dp"
+        android:textSize="24sp"
+        android:layout_below="@id/title_text_view1"
+        android:layout_centerInParent="true"/>
+    <Switch
+        android:id="@+id/backup_photos_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_text_view2"
+        android:layout_centerInParent="true"
+        android:text="@string/switch_on_your_motivation"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:paddingTop="10dp"
+        android:textSize="24sp" />
+
+    <RatingBar
+        android:id="@+id/rating_bar"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:rating="4.5"
+        android:stepSize="0.5"
+        android:layout_marginBottom="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"/>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:textSize="20sp"
+        android:layout_marginBottom="48dp"
+        android:padding="10dp"
+        android:background="@android:color/holo_green_light"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:text="@string/sign_up" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:textSize="12sp"
+        android:textColor="@android:color/holo_green_dark"
+        android:background="null"
+        android:textStyle="bold"
+        android:text="@string/contact_us_for_for_information"
+        android:layout_toRightOf="@id/button1"
+        android:layout_marginBottom="48dp"
+        android:layout_toEndOf="@id/button1" />
+
+</RelativeLayout>

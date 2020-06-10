@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="from_akyl">From, Akyl!</string>
+    <string name="happy_birthday_bro">Happy Birthday, Bro</string>
+    <string name="recruit">Recruit</string>
+    <string name="apply">Apply</string>
+    <string name="you_want_to_be_a_footballer">You want to be a footballer?</string>
+    <string name="join_us_and_became_football_player">Join us and became football player!!!</string>
+    <string name="join_us_became_professional_soccer_player">Join us! Became professional soccer player!!!</string>
+    <string name="became_professional_soccer_player">Became professional soccer player!!!</string>
+    <string name="join_us">Join us!</string>
+    <string name="apply_to_contact">apply to contact</string>
+    <string name="todo">TODO</string>
+    <string name="motivation_on">Motivation on</string>
+    <string name="motivation">MOTIVATION</string>
+    <string name="switch_on_your_motivation">Switch On your motivation</string>
+    <string name="rate_our_company">Rate our company</string>
+    <string name="ask_question">Ask Question</string>
+    <string name="appwefw">APPwefw</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="contact_us_for_for_information">Contact us for for information.</string>
+    <string name="contact_us">Contact us!</string>
+</resources>
